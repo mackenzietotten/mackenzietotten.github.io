@@ -1,8 +1,30 @@
 h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: black;
+  font-size: 140px;
+  color: white;
+  text-shadow: -1px 1px 5px #000,
+                1px 1px 5px #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 }
 
+.intro{
+  width: 720px;
+  height: 360px;
+  text-align: center;
+  margin: 0 auto;
+}
 
+.header{
+  display: flex;
+}
+
+.logo{
+  align-self: flex-start;
+}
+
+.nav{
+  align-self: flex-end;
+}
 /* use flex for container element and then use align-self for child items */
