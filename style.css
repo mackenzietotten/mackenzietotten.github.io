@@ -1,0 +1,8 @@
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+
+/* use flex for container element and then use align-self for child items */
